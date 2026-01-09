@@ -53,6 +53,10 @@ nav .btn {
   cursor: pointer;
 }
 
+nav .btn:hover {
+  background-color: rgb(38, 17, 198);
+}
+
 .hero {
   background-image: url(assets/hero-bg.png);
   background-repeat: no-repeat;
@@ -70,20 +74,24 @@ section .btn1 {
   padding: 8px 12px;
   font-size: 16px;
   font-weight: 500px;
-  margin-top: 162px;
+  margin-top: 130px;
   margin-bottom: 24px;
 }
 
+section .btn1:hover {
+  background-color: rgb(38, 17, 198);
+}
+
 section .banner-heading {
-  font-size: 72px;
+  font-size: 50px;
   font-weight: bold;
   text-transform: capitalize;
-  margin-bottom: 16px;
+  margin-bottom: 12px;
 }
 
 section .paragraph {
   color: rgba(255, 255, 255, 1);
-  padding: 0 488px;
+  padding: 0 200px;
   line-height: 24px;
   margin-bottom: 32px;
 }
@@ -97,7 +105,15 @@ section .paragraph {
   font-size: 16px;
   font-weight: 600;
   margin-right: 16px;
+  /* display: flex; */
+  /* justify-content: center; */
+  /* align-items: center; */
 }
+
+#bannerbtn .btn2:hover {
+  background-color: rgb(38, 17, 198);
+}
+
 #bannerbtn .btn3 {
   padding: 12px 16px;
   background: transparent;
@@ -107,6 +123,10 @@ section .paragraph {
   font-size: 16px;
   font-weight: 600;
   margin-right: 16px;
+}
+
+#bannerbtn .btn3:hover {
+  background-color: rgb(38, 17, 198);
 }
 
 #bannerbtn .btn2 img {
@@ -248,7 +268,11 @@ section .paragraph {
 
   justify-content: center;
   align-items: center;
-  margin: 0 auto;
+  margin: 10px auto;
+}
+
+.btn5:hover {
+  background-color: rgb(38, 17, 198);
 }
 
 .footer-container {
